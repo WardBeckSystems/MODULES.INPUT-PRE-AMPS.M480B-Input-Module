@@ -1,0 +1,31 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M480B/MANUALS/1980 - M480B - SCAN.pdf",
+ "page": 22,
+ "version": 1,
+ "trace": "_traces/aeee7f2cf2b60704-p22.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1546, 2000],
+  "mm": [333.8, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "22", "pages": "26"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [17.5, 9.5, 327.7, 420.1],
+ "outlines": {"line": {"rings": 83, "straight": {"n": 738, "mm": 805.8}, "curved": {"n": 97, "mm": 114.3}}},
+ "circles": [],
+ "boxes": [],
+ "text": {"words": 0, "lines": [], "note": "no OCR words typed in (the sheet was read turned, or no words were found)"},
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 334 × 432 mm, 1546 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 18–328 mm across, 10–420 mm up",
+  "- **Outlines:** line 83 rings, 738 straight (806 mm) / 97 curved (114 mm)"
+ ]
+}

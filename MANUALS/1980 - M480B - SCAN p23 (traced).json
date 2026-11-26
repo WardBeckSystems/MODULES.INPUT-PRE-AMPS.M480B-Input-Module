@@ -1,0 +1,97 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M480B/MANUALS/1980 - M480B - SCAN.pdf",
+ "page": 23,
+ "version": 1,
+ "trace": "_traces/aeee7f2cf2b60704-p23.svg",
+ "sheet": {
+  "number": "480-04-002",
+  "title": "Input Module Front Panel",
+  "dtype": "04",
+  "type": "layout",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [2000, 1295],
+  "mm": [431.8, 279.6],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "23", "pages": "26"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [2.7, 2.9, 428.8, 276.6],
+ "outlines": {
+  "line": {"rings": 468, "straight": {"n": 3210, "mm": 7944.5}, "curved": {"n": 780, "mm": 1308.5}},
+  "text": {"rings": 68, "straight": {"n": 417, "mm": 448.1}, "curved": {"n": 107, "mm": 148.2}},
+  "tb": {"rings": 22, "straight": {"n": 187, "mm": 190.3}, "curved": {"n": 29, "mm": 35.2}}
+ },
+ "circles": [
+  {"c": [384.9, 102.5], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [385.4, 205.9], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [384.8, 70.5], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [385.3, 195.5], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [385.1, 159.6], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.2, 206.4], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.4, 70.9], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.1, 182.1], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [385.2, 178.1], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [385.0, 131.1], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.5, 81.8], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.0, 170.4], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.8, 145.8], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.1, 196.0], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.6, 92.3], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.7, 119.7], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [334.0, 206.2], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [320.1, 145.6], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [333.9, 178.4], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [333.4, 102.7], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [333.6, 131.3], "r": 3.1, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [333.7, 159.8], "r": 3.0, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [321.0, 195.8], "r": 2.6, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [320.5, 81.5], "r": 2.6, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [321.1, 209.7], "r": 2.1, "kind": "circle", "span": 360, "from": ["outline"], "stroke": 1.0},
+  {"c": [321.0, 202.7], "r": 2.1, "kind": "circle", "span": 360, "from": ["outline"], "stroke": 1.1},
+  {"c": [320.9, 174.9], "r": 2.1, "kind": "circle", "span": 360, "from": ["outline"], "stroke": 0.3},
+  {"c": [333.8, 195.7], "r": 1.7, "kind": "circle", "span": 360, "from": ["outline"], "stroke": 0.4}
+ ],
+ "boxes": [
+  {"mm": [311.5, 50.7, 342.2, 229.7], "w": 30.7, "h": 179.0, "from": "ring", "words": ["M4b0b", "AUX"]},
+  {"mm": [313.5, 51.2, 340.5, 229.3], "w": 27.0, "h": 178.1, "from": "ring", "words": ["M4b0b", "AUX"]},
+  {"mm": [329.2, 64.6, 336.2, 77.1], "w": 6.9, "h": 12.5, "from": "ring"},
+  {"mm": [318.0, 65.4, 323.0, 76.2], "w": 5.0, "h": 10.8, "from": "ring"},
+  {"mm": [377.2, 31.1, 383.4, 33.9], "w": 6.3, "h": 2.8, "from": "ring", "in_title_block": true},
+  {"mm": [390.3, 31.1, 421.9, 33.9], "w": 31.5, "h": 2.8, "from": "ring", "in_title_block": true},
+  {"mm": [422.1, 31.1, 428.1, 33.9], "w": 6.0, "h": 2.8, "from": "ring", "in_title_block": true},
+  {"mm": [361.4, 21.9, 428.1, 30.7], "w": 66.7, "h": 8.8, "from": "ring", "words": ["WARO", "WBS", "BeCk SYSTEMS"], "in_title_block": true},
+  {"mm": [377.2, 9.3, 428.1, 21.8], "w": 51.0, "h": 12.5, "from": "ring", "words": ["INPUT", "MODULE", "FKONI", "#ANE"]},
+  {"mm": [361.2, 9.5, 377.0, 12.3], "w": 15.8, "h": 2.8, "from": "ring"}
+ ],
+ "text": {
+  "words": 11,
+  "lines": [
+   {"mm": [331.2, 224.3, 339.2, 227.7], "text": "M4b0b"},
+   {"mm": [317.6, 167.5, 324.7, 171.4], "text": "AUX"},
+   {"mm": [365.7, 24.6, 381.3, 28.5], "text": "WBS"},
+   {"mm": [384.7, 24.6, 426.2, 28.7], "text": "WARO BeCk SYSTEMS"},
+   {"mm": [392.7, 13.8, 413.2, 17.2], "text": "INPUT MODULE"},
+   {"mm": [394.0, 10.8, 410.2, 13.0], "text": "FKONI #ANE"},
+   {"mm": [391.0, 4.1, 409.3, 7.5], "text": "480- 02-002"}
+  ]
+ },
+ "title_block": {"mm": [357.1, 19.0, 431.8, 33.9], "from": "title-block words (training set)", "text": ["WBS", "WARO BeCk SYSTEMS"]},
+ "dots": [
+  {"c": [320.9, 182.0], "r": 1.6, "lines": 0},
+  {"c": [320.7, 119.6], "r": 1.6, "lines": 0},
+  {"c": [320.4, 81.5], "r": 1.5, "lines": 0},
+  {"c": [326.6, 54.5], "r": 1.3, "lines": 0}
+ ],
+ "summary": [
+  "- **Sheet:** layout 480-04-002, size B (assumed) 432 × 280 mm, 2000 × 1295 px traced (0.216 mm/px)",
+  "- **Ink extent:** 3–429 mm across, 3–277 mm up",
+  "- **Outlines:** line 468 rings, 3,210 straight (7,944 mm) / 780 curved (1,308 mm); text 68 rings, 417 straight (448 mm) / 107 curved (148 mm); tb 22 rings, 187 straight (190 mm) / 29 curved (35.2 mm)",
+  "- **Circles and arcs:** 28 circles, 0 arcs; largest r 3.3 @ (384.9, 102.5), r 3.3 @ (385.4, 205.9), r 3.3 @ (384.8, 70.5), r 3.3 @ (385.3, 195.5)",
+  "- **Closed boxes:** 10 (4 in the title block); named: M4b0b AUX; M4b0b AUX; INPUT MODULE FKONI #ANE",
+  "- **Dots (junctions):** 4",
+  "- **Words (OCR):** 11 in 7 lines: M4b0b · AUX · WBS · WARO BeCk SYSTEMS · INPUT MODULE · FKONI #ANE · 480- 02-002",
+  "- **Title block:** (357, 19)–(432, 34) mm: WBS · WARO BeCk SYSTEMS"
+ ]
+}

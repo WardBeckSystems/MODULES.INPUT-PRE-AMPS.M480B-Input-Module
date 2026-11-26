@@ -1,0 +1,76 @@
+{
+ "drawing": "Modules/INPUT-PRE-AMPS/M480B/MECHANICAL/1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg",
+ "version": 1,
+ "trace": "_traces/1c9c604864d45db9.svg",
+ "sheet": {
+  "number": "480-04-002",
+  "title": "Input Module Front Panel Scele",
+  "dtype": "04",
+  "type": "layout",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [2000, 1294],
+  "mm": [431.8, 279.4],
+  "mm_per_px": 0.2159
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [2.7, 2.8, 428.8, 276.4],
+ "outlines": {
+  "line": {"rings": 126, "straight": {"n": 1335, "mm": 4089.8}, "curved": {"n": 260, "mm": 452.4}},
+  "text": {"rings": 73, "straight": {"n": 468, "mm": 474.0}, "curved": {"n": 143, "mm": 186.1}},
+  "tb": {"rings": 368, "straight": {"n": 2006, "mm": 3981.2}, "curved": {"n": 563, "mm": 924.8}}
+ },
+ "circles": [
+  {"c": [268.5, 81.6], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.2, 206.2], "r": 3.3, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.5, 70.7], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.1, 195.8], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.9, 145.6], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.0, 170.2], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.6, 92.1], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [268.7, 119.6], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]},
+  {"c": [269.1, 182.0], "r": 3.2, "kind": "circle", "span": 360, "from": ["outline (one edge)"]}
+ ],
+ "boxes": [
+  {"mm": [377.2, 31.1, 383.4, 33.9], "w": 6.3, "h": 2.8, "from": "ring", "in_title_block": true},
+  {"mm": [383.7, 30.9, 389.9, 33.9], "w": 6.3, "h": 3.0, "from": "ring", "in_title_block": true},
+  {"mm": [390.1, 30.9, 421.7, 33.9], "w": 31.5, "h": 3.0, "from": "ring", "in_title_block": true},
+  {"mm": [422.1, 30.9, 428.1, 33.9], "w": 6.0, "h": 3.0, "from": "ring", "in_title_block": true},
+  {"mm": [361.4, 22.0, 428.1, 30.4], "w": 66.7, "h": 8.4, "from": "ring", "words": ["WARO-BeCk SYSTEMS", "WBS"], "in_title_block": true},
+  {"mm": [377.2, 9.1, 428.1, 21.8], "w": 51.0, "h": 12.7, "from": "ring", "words": ["INPUT", "MODULE", "FRONT", "PANFI"]},
+  {"mm": [361.4, 15.5, 377.0, 18.6], "w": 15.6, "h": 3.1, "from": "ring"},
+  {"mm": [361.1, 12.5, 377.0, 15.3], "w": 15.8, "h": 2.8, "from": "ring"},
+  {"mm": [361.2, 9.3, 376.7, 12.1], "w": 15.5, "h": 2.8, "from": "ring"},
+  {"mm": [378.9, 4.5, 381.9, 7.1], "w": 3.0, "h": 2.6, "from": "ring"}
+ ],
+ "text": {
+  "words": 12,
+  "lines": [
+   {"mm": [316.1, 224.1, 322.6, 227.5], "text": "WBS"},
+   {"mm": [331.2, 224.1, 339.2, 227.5], "text": "M4808"},
+   {"mm": [330.8, 190.9, 336.8, 193.0], "text": "Pfar"},
+   {"mm": [317.6, 167.3, 324.7, 171.2], "text": "AUX"},
+   {"mm": [365.7, 23.7, 381.3, 28.1], "text": "WBS"},
+   {"mm": [385.2, 24.4, 426.2, 28.2], "text": "WARO-BeCk SYSTEMS"},
+   {"mm": [392.1, 13.6, 413.2, 17.0], "text": "INPUT MODULE"},
+   {"mm": [394.0, 10.6, 411.3, 12.7], "text": "FRONT PANFI"},
+   {"mm": [391.0, 3.7, 409.3, 7.0], "text": "480 04-002"}
+  ]
+ },
+ "title_block": {
+  "mm": [307.4, 18.2, 431.8, 232.9],
+  "from": "title-block words (training set)",
+  "text": ["WBS", "M4808", "Pfar", "AUX", "WBS", "WARO-BeCk SYSTEMS"]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** layout 480-04-002, size B (assumed) 432 × 279 mm, 2000 × 1294 px traced (0.216 mm/px)",
+  "- **Ink extent:** 3–429 mm across, 3–276 mm up",
+  "- **Outlines:** line 126 rings, 1,335 straight (4,090 mm) / 260 curved (452 mm); text 73 rings, 468 straight (474 mm) / 143 curved (186 mm); tb 368 rings, 2,006 straight (3,981 mm) / 563 curved (925 mm)",
+  "- **Circles and arcs:** 9 circles, 0 arcs; largest r 3.3 @ (268.5, 81.6), r 3.3 @ (269.2, 206.2), r 3.2 @ (268.5, 70.7), r 3.2 @ (269.1, 195.8)",
+  "- **Closed boxes:** 10 (5 in the title block); named: INPUT MODULE FRONT PANFI",
+  "- **Words (OCR):** 12 in 9 lines: WBS · M4808 · Pfar · AUX · WBS · WARO-BeCk SYSTEMS · INPUT MODULE · FRONT PANFI · 480 04-002",
+  "- **Title block:** (307, 18)–(432, 233) mm: WBS · M4808 · Pfar · AUX · WBS · WARO-BeCk SYSTEMS"
+ ]
+}
