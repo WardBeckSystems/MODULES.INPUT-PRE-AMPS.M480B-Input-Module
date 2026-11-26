@@ -22,7 +22,7 @@ Wiki page: [M480B](../../../../PAGES/M480B.md)
 - **Words (OCR):** 37 in 32 lines: 2228 · 2262 · 04 · 638 · 68 · HM · 328 · 22 · 243569 · 903 · 228 · 88 53 W851-094
 - **Title block:** (252, 18)–(432, 132) mm: Sw0 · WBS · KSv · ano · 431 400 · 3721 · WBS · RO-BeCk SYSTEMS
 
-Every curve, box, word and wire group: [1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20(traced).json) (the CAD file: `1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
+Every curve, box, word and wire group: [1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20480-06-002%20-%20INPUT%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT (traced).dxf`).
 
 ## Full text
 

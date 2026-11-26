@@ -21,7 +21,7 @@ Wiki page: [M480B](../../../../PAGES/M480B.md)
 - **Closed boxes:** 18
 - **Wiring (first pass):** 118 connected wire groups from 443 runs
 
-Every curve, box, word and wire group: [1980 - M480B - 480-01-001 - W-IG INPUT MODULE (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20480-01-001%20-%20W-IG%20INPUT%20MODULE%20(traced).json) (the CAD file: `1980 - M480B - 480-01-001 - W-IG INPUT MODULE (traced).dxf`).
+Every curve, box, word and wire group: [1980 - M480B - 480-01-001 - W-IG INPUT MODULE (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20480-01-001%20-%20W-IG%20INPUT%20MODULE%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-01-001 - W-IG INPUT MODULE (traced).dxf`).
 
 ## Full text
 

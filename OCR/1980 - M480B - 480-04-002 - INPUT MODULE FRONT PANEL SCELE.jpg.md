@@ -21,7 +21,7 @@ Wiki page: [M480B](../../../../PAGES/M480B.md)
 - **Words (OCR):** 12 in 9 lines: WBS · M4808 · Pfar · AUX · WBS · WARO-BeCk SYSTEMS · INPUT MODULE · FRONT PANFI · 480 04-002
 - **Title block:** (307, 18)–(432, 233) mm: WBS · M4808 · Pfar · AUX · WBS · WARO-BeCk SYSTEMS
 
-Every curve, box, word and wire group: [1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE (traced).json](../MECHANICAL/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE%20(traced).json) (the CAD file: `1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE (traced).dxf`).
+Every curve, box, word and wire group: [1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE (traced).json](../MECHANICAL/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE (traced).dxf`).
 
 ## Full text
 

@@ -25,7 +25,7 @@ Wiki page: [M480B](../../../../PAGES/M480B.md)
 - **Words (OCR):** 94 in 90 lines: NOTES: · A R= · Mic · R32 · DS 2 · 63 63,212 · UNLESS · '0/25 · R3c · 72c1 · LAST OMFONENT CFSISNA: · 4RL
 - **Title block:** (354, 20)–(432, 36) mm: WBS · WAAD-BECK systeM5 · M4BOB
 
-Every curve, box, word and wire group: [1980 - M480B - Input Module Schematic p1 (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20Input%20Module%20Schematic%20p1%20(traced).json) (the CAD file: `1980 - M480B - Input Module Schematic p1 (traced).dxf`).
+Every curve, box, word and wire group: [1980 - M480B - Input Module Schematic p1 (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20Input%20Module%20Schematic%20p1%20%28traced%29.json) (the CAD file: `1980 - M480B - Input Module Schematic p1 (traced).dxf`).
 
 ## Full text
 

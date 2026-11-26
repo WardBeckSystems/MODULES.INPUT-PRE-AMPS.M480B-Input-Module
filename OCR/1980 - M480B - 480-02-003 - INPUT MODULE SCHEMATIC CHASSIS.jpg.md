@@ -24,7 +24,7 @@ Wiki page: [M480B](../../../../PAGES/M480B.md)
 - **Title block:** (358, 19)–(432, 34) mm: WBS WAAO-BeCK SYSTEMS · M480B
 - **Wiring (first pass):** 179 connected wire groups from 1,449 runs, 2 dotted junctions; labelled ends: 362 mm → 624, Sw9; 179 mm → 322; 150 mm → 23.-; 133 mm → 3,2; 118 mm → Iye
 
-Every curve, box, word and wire group: [1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS%20(traced).json) (the CAD file: `1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS (traced).dxf`).
+Every curve, box, word and wire group: [1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS (traced).json](../SCHEMATICS/1980%20-%20M480B%20-%20480-02-003%20-%20INPUT%20MODULE%20SCHEMATIC%20CHASSIS%20%28traced%29.json) (the CAD file: `1980 - M480B - 480-02-003 - INPUT MODULE SCHEMATIC CHASSIS (traced).dxf`).
 
 ## Full text
 
