@@ -97,6 +97,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKd3htMjFWWUMwek0/view?resourcekey=0-zXN8QpRzVCM5xzB7yy3-Cw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKd3htMjFWWUMwek0&resourcekey=0-zXN8QpRzVCM5xzB7yy3-Cw" width="240" alt="1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg"></a><br><sub>1980|13 · 480-04-002 - INPUT MODULE FRONT PANEL SCELE · <a href="MECHANICAL/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKU0Q4aVNjUWszeWs/view?resourcekey=0-vcF2pLmLAq8ds9DeUajW-g" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKU0Q4aVNjUWszeWs&resourcekey=0-vcF2pLmLAq8ds9DeUajW-g" width="240" alt="1980 - M480B - 480-04-002 - INPUT MODULE.jpg"></a><br><sub>1980|13 · 480-04-002 - INPUT MODULE</sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M480B.stl`](MECHANICAL/M480B.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M480B)
+
+- **Size:** 39.08 × 189.99 mm panel, 165 mm deep, 3.2 mm plate (the drawing sheet, taken as drawn 1:1)
+- **From the drawing:** 13 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M480B - front panel.svg`)
+- the drawn panel is 0.15 wide to high, the size 0.21: placed by its height
+- Made by `tools/module_models.py` (→ `MECHANICAL/M480B.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
