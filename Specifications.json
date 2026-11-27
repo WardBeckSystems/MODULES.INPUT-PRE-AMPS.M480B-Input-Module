@@ -1,0 +1,237 @@
+{
+ "module": "M480B",
+ "title": "M48OB INPUT MODULE",
+ "source": {
+  "file": "MANUALS/1980 - M480B - M480B_Page_03.jpg",
+  "page": 1
+ },
+ "ocr_quality": 1.0,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Input sensitivities",
+   "key": "input_sensitivity",
+   "text": "",
+   "items": [
+    {
+     "name": "Line",
+     "text": "Mic: -20 to +10 dBm (ref. 600 ohm source) -70 to -40 dBm ref.150 ohm source)",
+     "quantities": [
+      {
+       "from": -20,
+       "to": 10,
+       "unit": "dBm"
+      },
+      {
+       "value": 600,
+       "unit": "ohm"
+      },
+      {
+       "from": -70,
+       "to": -40,
+       "unit": "dBm"
+      },
+      {
+       "value": 150,
+       "unit": "ohm"
+      }
+     ],
+     "key": "line"
+    }
+   ]
+  },
+  {
+   "name": "Frequency response",
+   "key": "frequency_response",
+   "text": "+/ -0.25 dB from 30 Hz to 20 kHz _ (Equalizer in bypass position)",
+   "quantities": [
+    {
+     "value": -0.25,
+     "unit": "dB"
+    },
+    {
+     "value": 30,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Noise",
+   "key": "noise",
+   "text": "-125 dB EIN at maximum SENSITIVITY (20 Hz to 20 kHz) _ 75 dB s/N with Sensitivity set to +8 dBm Line in (20 Hz to 20 kHz)",
+   "quantities": [
+    {
+     "value": -125,
+     "unit": "dB"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    },
+    {
+     "value": 75,
+     "unit": "dB"
+    },
+    {
+     "value": 8,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Harmonic distortion",
+   "key": "harmonic_distortion",
+   "text": "Less than 0.359 THD from 30 Hz to 20 KHz at +24 dBm or less at insertion point _ Less than 0.1% at kHz at +24 dBm _ Equalizer controls in flat positions or not inserted",
+   "quantities": [
+    {
+     "value": 30,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "KHz"
+    },
+    {
+     "value": 24,
+     "unit": "dBm"
+    },
+    {
+     "value": 0.1,
+     "unit": "%"
+    },
+    {
+     "value": 24,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Source impedances",
+   "key": "source_impedance",
+   "text": "",
+   "items": [
+    {
+     "name": "Line",
+     "text": "Mic: 600 ohms or less balanced/unbalanced _ 150 ohms, balanced/unbalanced",
+     "quantities": [
+      {
+       "value": 600,
+       "unit": "ohms"
+      },
+      {
+       "value": 150,
+       "unit": "ohms"
+      }
+     ],
+     "key": "line"
+    }
+   ]
+  },
+  {
+   "name": "Input impedances",
+   "key": "input_impedance",
+   "text": "",
+   "items": [
+    {
+     "name": "Line",
+     "text": "Mic: 30, O00 ohms _ 750 ohms minimum",
+     "quantities": [
+      {
+       "value": 0,
+       "unit": "ohms"
+      },
+      {
+       "value": 750,
+       "unit": "ohms"
+      }
+     ],
+     "key": "line"
+    }
+   ]
+  },
+  {
+   "name": "Output impedance",
+   "key": "output_impedance",
+   "text": "Less than 100 ohms (at insertion point) 30,000 ohms (at module outputs)",
+   "quantities": [
+    {
+     "value": 100,
+     "unit": "ohms"
+    },
+    {
+     "value": 30000,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Load impedance",
+   "key": "load_impedance",
+   "text": "600 ohms, balanced (at insertion point). Less than 5 ohms (at module outputs).",
+   "quantities": [
+    {
+     "value": 600,
+     "unit": "ohms"
+    },
+    {
+     "value": 5,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Output level",
+   "key": "output_level",
+   "text": "0 dBm nominal +24 dBm maximum (at insertion point)",
+   "quantities": [
+    {
+     "value": 0,
+     "unit": "dBm"
+    },
+    {
+     "value": 24,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "Input and Output terminals designated by numbers are in phase."
+  }
+ ],
+ "also_in": [
+  {
+   "file": "MANUALS/1980 - M480B - SCAN.pdf",
+   "page": 3
+  },
+  {
+   "file": "MANUALS/1980 - M480B - complete_Page_02.jpg",
+   "page": 1
+  },
+  {
+   "file": "MANUALS/1980 - M480B - M480B_Page_04.jpg",
+   "page": 1
+  },
+  {
+   "file": "MANUALS/1980 - M480B - SCAN.pdf",
+   "page": 4
+  }
+ ]
+}

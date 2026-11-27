@@ -13,6 +13,72 @@ Ward-Beck Systems M480B, 1980|13. Wiki page: [M480B on WBSps.ca](https://wardbec
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 5 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 57 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [7 topics](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1980 - M480B - M480B_Page_03.jpg](MANUALS/1980%20-%20M480B%20-%20M480B_Page_03.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Input sensitivities** |  |
+| &nbsp;&nbsp;Line | Mic: -20 to +10 dBm (ref. 600 ohm source) -70 to -40 dBm ref.150 ohm source) |
+| **Frequency response** | +/ -0.25 dB from 30 Hz to 20 kHz _ (Equalizer in bypass position) |
+| **Noise** | -125 dB EIN at maximum SENSITIVITY (20 Hz to 20 kHz) _ 75 dB s/N with Sensitivity set to +8 dBm Line in (20 Hz to 20 kHz) |
+| **Harmonic distortion** | Less than 0.359 THD from 30 Hz to 20 KHz at +24 dBm or less at insertion point _ Less than 0.1% at kHz at +24 dBm _ Equalizer controls in flat positions or not inserted |
+| **Source impedances** |  |
+| &nbsp;&nbsp;Line | Mic: 600 ohms or less balanced/unbalanced _ 150 ohms, balanced/unbalanced |
+| **Input impedances** |  |
+| &nbsp;&nbsp;Line | Mic: 30, O00 ohms _ 750 ohms minimum |
+| **Output impedance** | Less than 100 ohms (at insertion point) 30,000 ohms (at module outputs) |
+| **Load impedance** | 600 ohms, balanced (at insertion point). Less than 5 ohms (at module outputs). |
+| **Output level** | 0 dBm nominal +24 dBm maximum (at insertion point) |
+| **Phasing** | Input and Output terminals designated by numbers are in phase. |
+
+## Circuit description
+
+From [1980 - M480B - SCAN.pdf](MANUALS/1980%20-%20M480B%20-%20SCAN.pdf) pages 5-11 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+The M48OB input module provides the necessary input selection equalization and output assignment for the operation of smal mixing console, primarily the T1202 transportable console_ Input The INPUT SELECTOR switches SW1 SW2 and Sw3 allows choice of input selections between two Line and two microphone inputs_ When operating from microphone source the input impedance of the unit is substantially higher than the source impedance In the LINE position_ the M48OB presents bridging impedance of 30k ohms to the source AII inputs to the module are transformer-coupled to the preamplifier _ Preampl ifiec The secondary side of the input transformer T1 connects to the preampl ifier comprising Q1 02 u1 and their associated components SENSiTiViTY control R54 allows continuous gain adjustment of all input signals over range of 30 dB _ The SENSiTiViTY control thus permits operation with microphone input levels from -70 dBm to -40 dBm and Line input levels from -20 dBm to +10 dBm. Equalizer The signa output from the preamplifier is fed to the equalizer mix amplifier u2 _ This amplifier also receives feeds from the equalizer filter circuitry R20 is the cut/boost control for the HIGH FREQUENCY shelving of the equalizer and feeds an in-phase or out-of-phase proportional signal from the input or the output of u2 to high-pass filter, consisting of u3 and its related components C8 and R16 are the frequency determining components The output from u3 is fed through R19 to the summing input of u2. Depending upon its phase, this signal is either added or subtracted from the main signal through U2, affect ing cut or boost of the high frequency portion of the audio spectrum. Similarly, the cut/boost control R25 for the Low FREQUENCY section feeds signal to the low-pass filter consisting of U4 and iis associated components. The frequency determining components of this fi ter are C12 and R28 _ The output of u4 is fed through R18 to the summing input of u2 to be either added or subtracted from the main signal through u2, affecting cut or boost of the low frequency portion of the audio spectrum.
+
+The MID-FREQUENCY cut/boOST control R34 derives its signal across the output amplifier formed by u7 Q5 06 and its related components Depending on the setting of R34, an in-phase or out-ofphase proportional signal is fed to the state variable band-pass filter formed by u4, u5 and its associated components. The band-pass center, frequency is determined by C26 and C31 in conjunction with the setting of frequency control R4s/R61. frequency range from 400 Hz to 6400 Hz is covered The bandwidth of the filter maybe altered by switch SWs The Q-factor is set to for HIGH and 1.5 for Low 0. The band-pass filter output is fed back to pin of u7, where it is added or subtracted from the main signal depending upon its phase relationship. Thus, it affects cut or boost of the audio signal in the mid-frequency region of the audio spectrum. Both the HIGH FREQUENCY and the Low FREQUENCY sections of the equalizer provide SHELVING type of equalization with maximum cut or boost of 10 dB at the respective corner frequencies (10 kHz and 100 Hz) The MId FREQUENCY section provides bell-shaped peaking response curve with maximum cut or boost of 10 dB at the selected center frequency With the EQUALIZER INSERT switch SW4 released the filter amplifiers are inactive and u2 and u7 pass an unequalized signal Output Amplifier U7, 05, Q6 and u6, 03, 04 with their associated components form an amplifier with an actively balanced output. This output is subsequently routed to the ATTENUATOR INSERT point, appearing at module connector pins 16 &amp; T. It is also routed to the SOLO/cUE switch Sw6 the PRE/POST switch SW7 of the Aux output and the PEAK indicator circuit. Master Assignment The output from the mixing attenuator is connected to pins 10 &amp; L where it is routed to the master assignment switches Sw8 and Sw9 for M1 and M2 assignment respectively. M1 and M2 outputs are designed as 30k ohm current sources to operate into zero impedance summing nodes
+
+SOLO/CUE Output SOLO/cuE Output is provided and appears at pins &amp; Eat the module connector This output is designed as sok ohm current source and operates into the zero impedance summing node of the SOLO/cuE summing bus_ The SOLO/cUE switch SW6 also provides dc control contact to effect control of external circuitry_ AuX Output An AuX output is provided to feed an auxiliary mixing bus With the PRE/ Post Sw tch SW7 the signal can be picked up either ahead of the attenuator (PRE) or after the attenuator (PosT) SdB loss pad in the PREposition of SW7 reduces the signal level in the PREposition to that of the POST-position (nominal attenuator in-hand setting is 1SdB) Aux level control R87 provides level control for the Aux channel and switch SW10 is the AuX channel assignment switch. The AuX output, appearing at pins &amp; Dat the module connector is designed as 20K ohm current source and operates into the zero impedance summing node of the AUX summing bus PEAK Indicator The signal for the PEAK indicator is picked up at the output of the output amplifier and is rectified with diodes CR7 and CR8. u8 with its associated components forms voltage comparator which compares the rectified audio signal with an externally supplied reference voltage _ With the reference voltage ranging from to approximately +10 volts; calibration of the overload point from -6dBm to +24dBm is possible_ PEAK overload is indicated with LED DS2 _ Power Supply Decoupl ing CRI CRZ, C1 to C4 with R10 and R11 provide the decoupling network from the +/ -25 volts power supply bus [0 operate the internal amplifier circuitry at nominal +/ -16 volts_ CRI and CR2 guard against the inadvertent application of reverse power supply voltages
+
+**FREQUENCY RESPONSE CHARACTERISTICS**
+
+ML8oB INPUT MODULE EQUALIZER
+
+Low FREQUENCY section BosT/cut: +/ -10 dB _ FREQUENCY: 100 Hz _ 20Hz 10OHz 1kHz 10k 20k 30k
+
+HIGH FREQUENCY section BoosT/cut: +/ -10 dB _ FREQUENCY: 10 kHz.
+
+-12 20Hz 100Hz 1kHz 10k 20k 30k
+
+FREQUENCY RESPONSE CHARACTERISTiCS M48OB inPUT MODULE EQUALIZER
+
+Mid FREQUENCY section BoosT/cut: +/ -10 dB. -12 FREQUENCY: 0.4 to 6.4 kHz: Z0Hz Q: 1.5 10OHz IkHz 10k 20k 30k
+
+Mid FREQUENCY section ~10 BoosT/cuT: +/-10 dB _ 0.4 6.4 kHz _ ~12 FREQUENCY: to ZOHz Q: 100Hz IkHz 10k 20k 30k
+
+**PEAK INDICATOR CHARACTERISTICS**
+
+M48oB INPUT MODULE
+
+OdBm
+
+**SV 6V**
+
+LEVEL Vs CONTROL VOLTAGE TABLE LEVEL (dBm) CONTROL VOLTAGE (volts) +0.15 +0.39 +0.70 +1.15 +2.00 +2.75 +3.50 +4.80 +7.50 +4 +8 +10 +14 +16 +18 +20 +22 NOTE: Level measured at preamplifier output
+
+</details>
+
+<!-- /module data -->
+
 ## Photos
 
 _Photographs of the module itself: front, back, inside, racked._
