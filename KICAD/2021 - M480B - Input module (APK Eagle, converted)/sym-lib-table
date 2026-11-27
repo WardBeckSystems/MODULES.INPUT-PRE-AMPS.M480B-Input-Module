@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "M480B_Input_Module-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/M480B_Input_Module-eagle-import.kicad_sym")(options "")(descr ""))
+)
