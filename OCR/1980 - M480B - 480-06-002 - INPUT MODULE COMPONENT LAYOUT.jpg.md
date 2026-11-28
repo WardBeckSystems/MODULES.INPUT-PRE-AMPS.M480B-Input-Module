@@ -1,5 +1,5 @@
 # 1980 - M480B - 480-06-002 - INPUT MODULE COMPONENT LAYOUT.jpg
-Wiki page: [M480B](../../../../PAGES/M480B.md)
+Wiki page: [M480B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))

@@ -1,5 +1,5 @@
 # 1980 - M480B - wbsps - module - m480b preamp_small.jpg
-Wiki page: [M480B](../../../../PAGES/M480B.md)
+Wiki page: [M480B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))

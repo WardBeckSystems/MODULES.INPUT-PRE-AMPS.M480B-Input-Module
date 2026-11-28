@@ -1,5 +1,5 @@
 # 1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg
-Wiki page: [M480B](../../../../PAGES/M480B.md)
+Wiki page: [M480B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))

@@ -1,5 +1,5 @@
 # 19xx - M480B - FREQUENCY RESPONSE CHARACTERISTICS M480B INPUT MODULE EQUALIZER.jpg
-Wiki page: [M480B](../../../../PAGES/M480B.md)
+Wiki page: [M480B](../)
 
 
 - **Year:** unknown (title block (read by eye))

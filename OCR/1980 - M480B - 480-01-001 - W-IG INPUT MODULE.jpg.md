@@ -1,5 +1,5 @@
 # 1980 - M480B - 480-01-001 - W-IG INPUT MODULE.jpg
-Wiki page: [M480B](../../../../PAGES/M480B.md)
+Wiki page: [M480B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))

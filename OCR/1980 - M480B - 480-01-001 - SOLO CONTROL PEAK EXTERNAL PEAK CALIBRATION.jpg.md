@@ -1,5 +1,5 @@
 # 1980 - M480B - 480-01-001 - SOLO CONTROL PEAK EXTERNAL PEAK CALIBRATION.jpg
-Wiki page: [M480B](../../../../PAGES/M480B.md)
+Wiki page: [M480B](../)
 
 
 - **Year:** 1980 (module estimate (manual_issue))
