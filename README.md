@@ -4,13 +4,12 @@ Ward-Beck Systems M480B, 1980|13. Wiki page: [M480B on WBSps.ca](https://wardbec
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 22 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 12 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 6 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 130 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 4 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 8 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 21 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 11 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 5 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 129 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 3 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 7 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 57 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -97,6 +96,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKd3htMjFWWUMwek0/view?resourcekey=0-zXN8QpRzVCM5xzB7yy3-Cw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKd3htMjFWWUMwek0&resourcekey=0-zXN8QpRzVCM5xzB7yy3-Cw" width="240" alt="1980 - M480B - 480-04-002 - INPUT MODULE FRONT PANEL SCELE.jpg"></a><br><sub>1980|13 · 480-04-002 - INPUT MODULE FRONT PANEL SCELE · <a href="MECHANICAL/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20FRONT%20PANEL%20SCELE%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKU0Q4aVNjUWszeWs/view?resourcekey=0-vcF2pLmLAq8ds9DeUajW-g" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKU0Q4aVNjUWszeWs&resourcekey=0-vcF2pLmLAq8ds9DeUajW-g" width="240" alt="1980 - M480B - 480-04-002 - INPUT MODULE.jpg"></a><br><sub>1980|13 · 480-04-002 - INPUT MODULE · <a href="MECHANICAL/1980%20-%20M480B%20-%20480-04-002%20-%20INPUT%20MODULE%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M480B.stl`](MECHANICAL/M480B.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M480B)
+
+- **Size:** 39.08 × 189.99 mm panel, 165 mm deep, 3.2 mm plate (the drawing sheet, taken as drawn 1:1)
+- **From the drawing:** 13 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M480B - front panel.svg`)
+- the drawn panel is 0.15 wide to high, the size 0.21: placed by its height
+- Made by `tools/module_models.py` (→ `MECHANICAL/M480B.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
@@ -109,8 +117,6 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 ## Pinouts
 
 _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and rear views, strapping), and the pinout / connections drawings made from them. The module root `RTO.json` lists every contact._
-
-Not on Google Drive yet: `M480B - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
@@ -161,8 +167,6 @@ _Manuals and manual pages, price lists, RTO-144 connection sheets, brochures, ad
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKOWRNdkI1YzhZQzg/view?resourcekey=0-f-Dcp8U1IHKYNcY5Dmer8A" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKOWRNdkI1YzhZQzg&resourcekey=0-f-Dcp8U1IHKYNcY5Dmer8A" width="240" alt="1980 - M480B - complete_Page_21.jpg"></a><br><sub>1980|13 · complete_Page_21</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKVWE5ZFd1cEZVaHc/view?resourcekey=0-C2h2qSdcnWTqSA-5-S46cA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKVWE5ZFd1cEZVaHc&resourcekey=0-C2h2qSdcnWTqSA-5-S46cA" width="240" alt="1980 - M480B - complete_Page_22.jpg"></a><br><sub>1980|13 · complete_Page_22</sub></td></tr>
 </table>
 
-Not on Google Drive yet: `19xx - M480B - FREQUENCY RESPONSE CHARACTERISTICS M480B INPUT MODULE EQUALIZER.jpg`
-
 ## KiCad
 
 _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the module symbol (`.kicad_sym`) and its PCB projects. Traced schematics are the line work only: redraw with symbols over them._
@@ -174,7 +178,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1980 - M480B - SCAN p25.kicad_sch](KICAD/1980%20-%20M480B%20-%20SCAN%20p25.kicad_sch)
 - [2021 - M480B - Input module (APK Eagle, converted)](KICAD/2021%20-%20M480B%20-%20Input%20module%20(APK%20Eagle%2C%20converted))
 - [M480B.kicad_sym](KICAD/M480B.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
